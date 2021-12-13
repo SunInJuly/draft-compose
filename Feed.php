@@ -12,8 +12,6 @@
 use Illuminate\Filesystem\Filesystem as Filesystem;
 use Illuminate\Contracts\Cache\Repository as CacheRepository;
 use Illuminate\Contracts\Config\Repository as ConfigRepository;
-use Illuminate\Contracts\Routing\ResponseFactory as ResponseFactory;
-use Illuminate\Contracts\View\Factory as ViewFactory;
 
 class Feed
 {
