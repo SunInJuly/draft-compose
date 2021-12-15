@@ -18,20 +18,6 @@ class Feed
     const DEFAULT_REF = 'self';
 
     /**
-     * CacheRepository instance
-     *
-     * @var CacheRepository $cache
-     */
-    public $cache = null;
-
-    /**
-     * ConfigRepository instance
-     *
-     * @var ConfigRepository $configRepository
-     */
-    protected $configRepository = null;
-
-    /**
     * Filesystem instance
     *
     * @var Filesystem $file
